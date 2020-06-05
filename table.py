@@ -5,4 +5,4 @@ def table(tableof, upto):
         print(tableof, "*", i, "=", (i*tableof))
 
 
-table(632, 10)
+table(2, 10)
