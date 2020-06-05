@@ -3,6 +3,7 @@
 def table(tableof, upto):
     for i in range(1, upto + 1):
         print(tableof, "*", i, "=", (i*tableof))
+    return
 
 
 table(2, 10)
